@@ -1,37 +1,38 @@
 <template>
-  <div id="app" class="pb-4 mx-auto">
+  <div id="nav">
     <Header />
-   <Output  />
-   <Footer />
-  </div>
-   
+  </div> 
+  <router-view/>
 </template>
 
 <script>
-import './assets/tailwind.css';
 import Header from "./components/layout/Header";
-import Output from "./components/Output";
-import Footer from "./components/Footer";
+
 export default {
   name: 'App',
   components: {
     Header,
-    Output,
-    Footer
+ 
   }
 }
 </script>
 
 <style>
-* {
-  box-sizing: border-box;
-  padding:0;
-  margin: 0;
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1,4;
+
+#nav a {
+  font-weight: bold;
+  color: #fff;
 }
 
+#nav a.router-link-exact-active {
+  color: #42b983;
+}
 </style>
