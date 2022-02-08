@@ -6,7 +6,8 @@
         
         <div class="font-bold text-white py-2 md:py-2 md:py-0 md:flex-auto">
             <router-link to="/">Home</router-link> |
-            <router-link to="/about">About</router-link>
+            <router-link to="/about">About</router-link> |
+            <router-link to="/usage">Tips</router-link>
         </div>
         
     </div>
