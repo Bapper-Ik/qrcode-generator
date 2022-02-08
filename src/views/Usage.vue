@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-300 p-10">
+    <div class="bg-gray-300 py-10 px-5">
         <h1 class="text-left text-2xl font-bold ">Tips:</h1>
         <div class="bg-green-100 mb-12 rounded-xl p-5 md:grid md:grid-cols-3 md:gap-4">
             
@@ -61,7 +61,7 @@
             </div>
 
 
-            <div class="bg-white mb-10 mx-auto max-w-sm rounded-xl overflow-hidden shadow-lg">
+            <div class="bg-white mx-auto max-w-sm rounded-xl overflow-hidden shadow-lg">
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Online accounts authentication</div>
                     <p class="text-gray-700 text-base">
